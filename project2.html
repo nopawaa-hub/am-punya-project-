@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Pembahagian Kumpulan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+            background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+    
+    <div class="max-w-5xl w-full">
+        <!-- Header Section -->
+        <div class="text-center mb-12">
+            <div class="inline-block bg-white px-6 py-2 rounded-full shadow-sm mb-4 border border-slate-100">
+                <span class="text-sm font-bold text-indigo-600 tracking-wider uppercase">Senarai Rasmi</span>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4 drop-shadow-sm">🌟 Pembahagian Kumpulan Epik! 🌟</h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Sedia untuk beraksi? Berikut adalah senarai rasmi pembahagian kumpulan anda. Selamat berkenalan dan bekerjasama! 🤝✨</p>
+        </div>
+
+        <!-- Grid Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Kumpulan 1 -->
+            <div class="bg-gradient-to-br from-rose-500 to-orange-400 rounded-[2rem] p-8 text-white shadow-lg transition-all duration-300 card-hover">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="bg-white/20 p-3 rounded-2xl backdrop-blur-sm text-3xl shadow-sm">🔥</div>
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-wide">Kumpulan 1</h2>
+                        <p class="text-orange-100 font-medium text-sm bg-black/10 inline-block px-3 py-1 rounded-full mt-1">6 Ahli</p>
+                    </div>
+                </div>
+                <div class="glass-panel rounded-2xl p-5 text-slate-700 shadow-inner">
+                    <ul class="grid grid-cols-2 gap-3 font-medium">
+                        <li class="flex items-center gap-2"><span class="text-rose-500">🔸</span> Azfar</li>
+                        <li class="flex items-center gap-2"><span class="text-rose-500">🔸</span> Syafiqah</li>
+                        <li class="flex items-center gap-2"><span class="text-rose-500">🔸</span> Fatihah</li>
+                        <li class="flex items-center gap-2"><span class="text-rose-500">🔸</span> Fathirah</li>
+                        <li class="flex items-center gap-2"><span class="text-rose-500">🔸</span> Syazwina</li>
+                        <li class="flex items-center gap-2"><span class="text-rose-500">🔸</span> Alya</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kumpulan 2 -->
+            <div class="bg-gradient-to-br from-blue-500 to-cyan-400 rounded-[2rem] p-8 text-white shadow-lg transition-all duration-300 card-hover">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="bg-white/20 p-3 rounded-2xl backdrop-blur-sm text-3xl shadow-sm">🌊</div>
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-wide">Kumpulan 2</h2>
+                        <p class="text-cyan-100 font-medium text-sm bg-black/10 inline-block px-3 py-1 rounded-full mt-1">6 Ahli</p>
+                    </div>
+                </div>
+                <div class="glass-panel rounded-2xl p-5 text-slate-700 shadow-inner">
+                    <ul class="grid grid-cols-2 gap-3 font-medium">
+                        <li class="flex items-center gap-2"><span class="text-blue-500">🔹</span> Razin</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">🔹</span> Farisha</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">🔹</span> Nafisa</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">🔹</span> Zulaikha</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">🔹</span> Najihah</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">🔹</span> Irdina</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kumpulan 3 -->
+            <div class="bg-gradient-to-br from-amber-400 to-orange-500 rounded-[2rem] p-8 text-white shadow-lg transition-all duration-300 card-hover">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="bg-white/20 p-3 rounded-2xl backdrop-blur-sm text-3xl shadow-sm">⚡</div>
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-wide">Kumpulan 3</h2>
+                        <p class="text-amber-100 font-medium text-sm bg-black/10 inline-block px-3 py-1 rounded-full mt-1">5 Ahli</p>
+                    </div>
+                </div>
+                <div class="glass-panel rounded-2xl p-5 text-slate-700 shadow-inner">
+                    <ul class="grid grid-cols-2 gap-3 font-medium">
+                        <li class="flex items-center gap-2"><span class="text-amber-500">⚡</span> Irfan</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-500">⚡</span> Nabilah</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-500">⚡</span> Auni</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-500">⚡</span> Faqihah</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-500">⚡</span> Badzlin</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kumpulan 4 -->
+            <div class="bg-gradient-to-br from-emerald-400 to-teal-500 rounded-[2rem] p-8 text-white shadow-lg transition-all duration-300 card-hover">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="bg-white/20 p-3 rounded-2xl backdrop-blur-sm text-3xl shadow-sm">🍃</div>
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-wide">Kumpulan 4</h2>
+                        <p class="text-teal-100 font-medium text-sm bg-black/10 inline-block px-3 py-1 rounded-full mt-1">5 Ahli</p>
+                    </div>
+                </div>
+                <div class="glass-panel rounded-2xl p-5 text-slate-700 shadow-inner">
+                    <ul class="grid grid-cols-2 gap-3 font-medium">
+                        <li class="flex items-center gap-2"><span class="text-teal-500">🍀</span> Nasrah</li>
+                        <li class="flex items-center gap-2"><span class="text-teal-500">🍀</span> Hajar</li>
+                        <li class="flex items-center gap-2"><span class="text-teal-500">🍀</span> Aqilah</li>
+                        <li class="flex items-center gap-2"><span class="text-teal-500">🍀</span> Afaf</li>
+                        <li class="flex items-center gap-2"><span class="text-teal-500">🍀</span> Ezza</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer / Tips -->
+        <div class="mt-10 bg-white border border-slate-200 rounded-2xl p-6 shadow-sm text-center">
+            <p class="text-slate-600">💡 <span class="font-semibold text-slate-800">Tips Tambahan:</span> Bincang sesama ahli, lantik seorang ketua kumpulan, dan kalau nak tukar nama kumpulan pun boleh. Good luck semua! 🎉</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
